@@ -1,6 +1,4 @@
-SUBDIRS = \
-	third_party_open/netcdf/netcdf-fortran-4.6.1 \
-	src
+SUBDIRS = src
 
 # our m4 stuff is here
 ACLOCAL_AMFLAGS = -I m4
