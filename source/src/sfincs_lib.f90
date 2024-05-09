@@ -494,7 +494,7 @@ module sfincs_lib
       !
       if (percdone>=percdonenext) then
          !
-         percdonenext = 1.0*(int(percdone) + 5)
+         percdonenext = 1.0*(int(percdone) + 1)
          call system_clock(count1, count_rate, count_max)
          trun  = 1.0*(count1 - count00)/count_rate
          trem = trun / max(0.01*percdone, 1.0e-6) - trun
